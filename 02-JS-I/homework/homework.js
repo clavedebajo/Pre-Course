@@ -7,7 +7,7 @@ const nuevaString = 'Hola';
 const nuevoNum = 8;
 
 // Crea una variable booleana:
-const nuevoBool = 'true';
+const nuevoBool = meGusta = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -77,7 +77,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.lenght===str2.lenght; 
+  if (str1.lenght === str2.lenght) {
+    return true;
+  }else {
+    return false;
+  }
   
 }
 
@@ -138,7 +142,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return Math.pow(num, 2);
+  return Math.pow(num,2) 
   
 }
 
