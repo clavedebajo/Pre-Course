@@ -77,12 +77,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.lenght === str2.lenght) {
-    return true;
-  }else {
-    return false;
-  }
-  
+  if (str1.lenght === str2.lenght){
+    return true
+   } else{
+     return false
+   }
 }
 
 function menosQueNoventa(num) {
@@ -101,7 +100,11 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num > 50;
+  if (num > 50){
+    return true;
+  } else {
+    return false;
+  }
   
 }
 
@@ -129,7 +132,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if( num % 2 === 1) {
+  if( num%2 !== 0) {
     return true
   }else {
     return false;
@@ -156,7 +159,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return (num, exponent) 
+  return Math.pow(num, exponent) 
   
 }
 
